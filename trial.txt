@@ -1,5 +1,5 @@
 NOTE: This document is for those people who are relatively new to github but know the basic concepts like
-repositories and commits etc. For experts this document can act as a revision document. Happy reading!! :)
+repositories and commits etc. For experts this document can act as a revision document. Happy reading!!
 
 Some commands are:
 1. Creating a repository:
