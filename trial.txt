@@ -1,0 +1,38 @@
+NOTE: This document is for those people who are relatively new to github but know the basic concepts like
+repositories and commits etc. For experts this document can act as a revision document. Happy reading!! :)
+
+Some commands are:
+1. Creating a repository:
+-->git init
+**You need to be in the repository that is to be initialised as the git repository**
+
+2. Checking status:
+-->git status
+**Command gives the current status of the the repository irrestective of file being commited or not.
+Status includes wheether file is 'tracked' or 'untracked' or 'modified' etc.**
+
+3.Adding file:
+-->git add <file_to_add>	**Adds the specified file to staging area**
+	OR
+-->git add .	**Adds all untracked files to staging area**
+	OR
+-->git add *.<extension>	**Adds all files with the specified extension**
+**Adding is only done to the staging area and not to the final commit straight away!!**
+
+4.Making a commit:
+-->git commit
+**Command redirects to an editor where you have to specify some description regarding the commit.
+This commits the files that were present in the staging area only!!**
+
+5.Unstaging a file:
+-->git rm --commit<file_name>
+**Removes the file from the staging area  and transfers it back to the modification area.**
+
+6.Changed files:
+-->git diff
+**Command shows the changes made to the files. Command works only when the file is in the unstaged area.
+For staged files:**
+-->git diff --staged
+
+Some more commands coming up in the next update.
+Thank you!! :)
