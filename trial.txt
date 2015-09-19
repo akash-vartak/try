@@ -34,5 +34,13 @@ This commits the files that were present in the staging area only!!**
 For staged files:**
 -->git diff --staged
 
+7. Pushing to remote repo:
+-->git remote add origin <url to the remote repo>
+-->git push -u origin <branch to which pushin is to be done>
+
+8.Pulling from your own remote repo to a locally existing repo
+-->git pull <url of remote repo> <branch>
+**To pull into a local repo the command prompt control needs to be inside the repo**
+
 Some more commands coming up in the next update.
 Thank you!! :)
