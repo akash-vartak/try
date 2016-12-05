@@ -1,7 +1,8 @@
-This document is for those people who are relatively new to github but know the basic concepts like
-repositories and commits etc. For experts this document can act as a revision document. Happy reading!!
+## About
+This document is for those people who are relatively new to GitHub but know the basic concepts like repositories and commits etc. For experts this document can act as a revision document.<br>
+**Happy learning!!**
 
-## Commands
+### Commands
   1. Creating a repository: `git init`<br>
 You need to be in the repository that is to be initialised as the git repository<br>
 
